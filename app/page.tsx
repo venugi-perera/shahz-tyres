@@ -98,34 +98,22 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "MOT Testing",
+                title: "Tyres",
                 description:
-                  "Professional MOT testing to ensure your vehicle meets safety standards",
-                href: "/services/mot",
+                  "Top-quality tyre sales, fitting, and repairs for all vehicle types",
+                href: "/services/tyres",
               },
               {
-                title: "Car Servicing",
+                title: "Car Welding",
                 description:
-                  "Complete vehicle servicing to maintain optimal performance",
-                href: "/services/car-servicing",
+                  "Expert car welding services for structural and cosmetic repairs",
+                href: "/services/car-welding",
               },
               {
-                title: "Timing Belt Replacement",
+                title: "Home Welding",
                 description:
-                  "Expert timing belt services to prevent costly engine damage",
-                href: "/services/timing-belt",
-              },
-              {
-                title: "Welding Services",
-                description:
-                  "Professional welding and fabrication for all vehicle types",
-                href: "/services/welding",
-              },
-              {
-                title: "Mechanical Repairs",
-                description:
-                  "Comprehensive mechanical repairs by experienced technicians",
-                href: "/services/mechanical-repairs",
+                  "On-site welding services at your convenience — we come to you!",
+                href: "/services/home-welding",
               },
             ].map((service, index) => (
               <div
